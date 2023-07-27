@@ -31,7 +31,7 @@ public class ExcelUtils {
                     .headRowNumber(0)
                     .doReadSync();
         } catch (IOException e) {
-            log.error("表格处理错误", e);
+
         }
         if (CollUtil.isEmpty(list)) {
             return "";
